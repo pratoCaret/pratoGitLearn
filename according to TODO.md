@@ -1,32 +1,58 @@
 Git Configration
+git config --global user.name "your_username"
+git config --global user.email "your_email_address@example.com"
 
-Clone a repository
+Clone a repository:
+git clone <ssh or html link>
 
-Convert a local directory into a repository
+Convert a local directory into a repository:
+git init
 
-Add a remote
+Add a remote:
+git remote add origin branch-name
 
-Status
+Status:
+git status
 
-Commit
+Commit:
+git commit -m "comment"
 
-Push
+Push:
+git push origin branch-name
 
-Download the latest changes in the project (Pull)
+Download the latest changes in the project (Pull):
+git pull origin branch-name
+git pull --rebase origin branch-name // rebase
 
-Branch
+Branch:
+git branch // list branches | -r for remote and -a for all
 
-Create a branch
+Create a branch:
+git branch -m branch-name
 
-Rename Branch
+Create and Switch to a New Branch (Shortcut) :
+git checkout -b branch-name
+OR (Preferred in newer Git versions)
+git switch -c branch-name
 
-Switch to a branch
+Rename Branch:
+git branch -m old-name new-name
 
-Delete Branch
+Switch to a branch:
+git checkout branch-name
+or 
+git switch branch-name
 
-Unstage all changes (git reset)
 
-Undo most recent commit
+Delete Branch:
+local : git branch -d branch-name
+remote : git push origin --delete branch-name
 
-Merge a branch
+Unstage all changes (git reset):
+git reset OR git reset file-name
 
+Undo most recent commit:
+git reset HEAD~1
+
+Merge a branch:
+git merge branch-name
