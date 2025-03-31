@@ -4,3 +4,7 @@ git command used is as follows:
 1. git init - create the local repo 
 2. git checkout -b <git ssh of the original>
 3. git remote add origin <git ssh> - in the folder I want to upload through terminal.
+4. git branch --set-upstream-to=origin/deskto-git-branch
+5. git add .
+6. git commit -m "comment"
+7. git push origin desktop-git-branch
