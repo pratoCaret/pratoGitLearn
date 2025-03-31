@@ -8,3 +8,9 @@ git command used is as follows:
 5. git add .
 6. git commit -m "comment"
 7. git push origin desktop-git-branch
+
+
+future workflow:
+git add .
+git commit -m "Updated files"
+git push origin desktop-git-branch
