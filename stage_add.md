@@ -11,3 +11,5 @@ git commit -m "Your commit message"
 
 Stage & Commit in One Step:
 git commit -a -m "Your commit message"
+
+this is the change
