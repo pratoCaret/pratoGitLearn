@@ -29,3 +29,4 @@ If you've already pushed the commit, you need to force push (git push --force) a
 
 # git commit --amend -m "your message" Changes:
 
+this is the first change to commit after the main commit. not to be reverted or amended.
